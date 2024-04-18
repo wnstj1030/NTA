@@ -1,0 +1,171 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(252deg, #030709 0%, #02a9e5 100%);
+}
+
+.Container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Box {
+  width: 70%;
+  height: 70%;
+  flex-shrink: 0;
+  border-radius: 39px;
+  background: #9ff4ff;
+  box-shadow: 0px 0px 38px 10px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.Title {
+  color: #02a9e5;
+  font-family: Inter;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  top: 50px;
+  left: 100px;
+}
+
+.img {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.btn-box {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  gap: 20px;
+}
+
+.btn {
+  border-radius: 37px;
+  background: #0a86bd;
+  padding: 25px;
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.sub-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.ListTitle {
+  color: #e50202;
+  font-family: Inter;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  top: 50px;
+  left: 100px;
+}
+
+.list-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-content-box {
+  width: 90%;
+  height: 90%;
+  background-color: #0398cd;
+  overflow-y: scroll;
+}
+
+.list-content {
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+  margin: 20px;
+}
+
+.list-content:hover {
+  transition: all 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#list-button {
+  border: none;
+  color: white;
+  border-radius: 37px;
+  background: #0a86bd;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#list-button:hover {
+  transition: all 0.3s ease;
+  color: #0a86bd;
+  background: white;
+}
+
+#cancel-button {
+  border: none;
+  background-color: #0a86bd;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.DetectingBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#DetectingCancelBtn {
+  border: none;
+  border-radius: 37px;
+  background: #0a86bd;
+  color: white;
+  padding: 20px 30px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 30px;
+}
+
+#DetectingCancelBtn:hover {
+  transition: all 0.3s ease;
+  background: #09668e;
+}
